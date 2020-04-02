@@ -1,6 +1,6 @@
 # Portfolio 2
 
-### Goal
+## Goal
 In this portfolio assignment you will create a portfolio website for yourself. You may use past
 projects you would like to show and even any side projects which you may have.
 
