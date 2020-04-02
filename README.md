@@ -4,7 +4,7 @@
 In this portfolio assignment you will create a portfolio website for yourself. You may use past
 projects you would like to show and even any side projects which you may have.
 
-#### Brief
+### Brief
 In this assignment you are going to design a portfolio site for yourself. You will then bring your
 design to life with React. Your site will need to be deployed to a live server. You can also add
 the website to a custom domain if you would like to.
