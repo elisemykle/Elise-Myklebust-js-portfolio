@@ -1,68 +1,42 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Portfolio 2
 
-## Available Scripts
+### Goal
+In this portfolio assignment you will create a portfolio website for yourself. You may use past
+projects you would like to show and even any side projects which you may have.
 
-In the project directory, you can run:
+### Brief
+In this assignment you are going to design a portfolio site for yourself. You will then bring your
+design to life with React. Your site will need to be deployed to a live server. You can also add
+the website to a custom domain if you would like to.
+Please use all knowledge that you have acquired inside this course. SCSS, BEM, HTML and
+React.
 
-### `yarn start`
+### Design:
+• You should have a style tile.
+• Your site should have a logo.
+• You should have a design for each of your pages.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### The site should have the following pages:
+• Home - where you will showcase a list of your work
+• About - give a small description about yourself.
+• CV - create a page which lists your experience.
+• Contact - create a contact page which is validated.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Your code should be stored in Github, please make sure that your designs can be accessed as
+well. You will need a 500-word report to inform your teachers of your thought process.
 
-### `yarn test`
+### Marking Criteria
+• Design is immaculate as this reflects on your personal work.
+• Code is neat and clean no terminal errors, code is formatted and project is well
+structured.
+• Website is responsive, accessible and follows SEO practices.
+• 500 Word Report
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Submission
+• A 500 word report, explaining your decision making and evaluating what you have
+produced.
+• A link to your public Github repo.
+• A link to your Netlify deploy/live server
+• Your designs should either uploaded to git or be hosted somewhere online with a link.
+We will be looking for pixel perfect code which adheres to your design
+You can add your links to a pdf and upload it to Moodle. Goodluck.
