@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Course Assigment</title>
+</head>
+<body>
+
+    <h4>1. Connect to the following API using JQuery. Create a new script file for this example.</h4>
+
+    <script>
+        var url = "https://cors-anywhere.herokuapp.com/http://www.amiiboapi.com/api/amiibo/?name=mario";
+        var xmlHttp = new XMLHttpRequest();
+        var whatever;
+        xmlHttp.onreadystatechange = function() {
+            if (this.readyState === 4 && this.status === 200) {
+                let myJSON = JSON.parse(this.responseText);
+                console.log(myJSON);
+            }
+        };
+        xmlHttp.open("GET", url, true);
+        xmlHttp.send();
+
+</script>
+
+</body>
+</html>
