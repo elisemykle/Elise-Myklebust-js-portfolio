@@ -1,15 +1,10 @@
 import React from 'react';
 
-function Home() {
+export default function Home(props) {
     return (
-        <h1>Portfolio</h1>
-            //  <div className="her-image">
-            //   <div className="hero-text">
-            //   <img src="img/elisee.png" alt="name" class="responsive">
-            //   <p id="herotext">PORTFOLIO</p>
-            //   </div>
-            // </div>
-    );
+        <div className="page page__home">
+            <h1 className="page__h1">Portfolio</h1>
+            <img src="./../../image/heroimage.png" alt="heroimage"/>
+        </div>
+    )
 }
-
-export default Home;

@@ -2,6 +2,7 @@ import React from 'react';
 import { Navbar, Nav, Container } from "react-bootstrap";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
+import Cv from "./components/cv/Cv";
 import Contact from "./components/contact/Contact";
 import {
     BrowserRouter as Router,
@@ -21,8 +22,9 @@ function Layout() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-                            <NavLink to="/" exact className="nav-link">ABOUT</NavLink>
-                            <NavLink to="/contactpage" className="nav-link">CONTACT</NavLink>
+                            <NavLink to="/About" exact className="nav-link">ABOUT</NavLink>
+                            <NavLink to="/Cv" exact className="nav-link">CV</NavLink>
+                            <NavLink to="/Contact" className="nav-link">CONTACT</NavLink>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
@@ -36,6 +38,9 @@ function Layout() {
                             </Route>
                             <Route exact path="/contact">
                               <Contact/>
+                            </Route>
+                            <Route exact path="/cv">
+                              <Cv/>
                             </Route>
                         </Switch>
                 </Container>
