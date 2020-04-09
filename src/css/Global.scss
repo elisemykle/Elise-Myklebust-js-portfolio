@@ -1,5 +1,29 @@
 // legg inn basic som feks navbar, footer, farger, bilder og skriftstørrelser
 
+$font-family: 'helvetica neue';
+$color: #EFC392;
+$background-color: transparent;
+
+.nav__bar{
+    background-color: $background-color;
+}
+
 .nav__link{
-    color: pink;
+    color: black;
+    font-family: $font-family;
+    padding: 15px;
+}
+
+.nav__link:hover {
+  color: $color;
+  text-decoration: line-through;
+}
+
+.nav__link:active {
+  color: $color;
+  font-weight: bold;
+}
+
+.hero__image{
+
 }

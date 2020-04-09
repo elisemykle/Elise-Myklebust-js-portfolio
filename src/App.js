@@ -15,9 +15,9 @@ import logo from "./image/icon.png"
 
 function App() {
   return (
-      <div className="frontpage">
+      <div className="front page">
         <Router className="Layout">
-          <Navbar bg="light" variant="light" expand="lg">
+          <Navbar className="nav__bar" bg="light" variant="light" expand="lg">
             <NavLink to="/" exact>
                 <Navbar.Brand>
                     <img src={logo} alt="my logo"/>
