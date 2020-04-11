@@ -5,7 +5,7 @@ import { Col, Row, Image, Container} from 'react-bootstrap';
 
 export default function About(props) {
     return (
-    <Container>
+    <Container id="content">
       <Row>
         <Col xs={12} md={6}>
             <h1 className="about__h1">ABOUT ME...</h1>

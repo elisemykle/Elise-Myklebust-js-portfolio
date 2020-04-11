@@ -28,7 +28,7 @@ const schema = yup.object().shape({
 
     }
     return(
-        <Form onSubmit={handleSubmit(onSubmit)}>
+        <Form id="content" onSubmit={handleSubmit(onSubmit)}>
             <Form.Group>
                 <div className="contact contact__page">
                     <h1 className="contact__h1">OH, HELLO THERE...</h1>

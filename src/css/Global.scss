@@ -1,16 +1,33 @@
-// legg inn basic som feks navbar, footer, farger, bilder og skriftstørrelser
- @import url("https://use.typekit.net/wic0adi.css");
+@import url("https://use.typekit.net/wic0adi.css");
 
 $font-family: 'helvetica neue';
 $color: #EFC392;
+
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     margin: 0;
 }
 
-#logo__icon{
+.logo__icon{
     height: 100px;
     width: 70px;
+    position: absolute;
+    top: 5px;
+    left: 25px;
+}
+
+.nav__container{
+    background: url("../image/heroimage2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.nav__bar{
+    //float: right;
 }
 
 .nav__link{
@@ -27,4 +44,29 @@ body{
 .nav__link:active {
   color: $color;
   font-weight: bold;
+}
+
+.hero__heading{
+    text-align: center;
+    padding-top: 250px;
+}
+
+.hero__heading h1{
+    font-size: 70px;
+    color: #EFC392;
+    font-family: acier-bat-gris, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hero__heading h2{
+    font-family: helvetica;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.heading__scrolldown{
+    padding-top: 160px;
+    color: white;
 }

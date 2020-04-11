@@ -17,22 +17,32 @@ function App() {
   return (
       <div className="front page">
         <Router className="Layout">
-          <Navbar className="nav__bar" bg="transparent" variant="light" expand="lg">
-            <NavLink to="/" exact>
-                <Navbar.Brand>
-                    <img src={logo} id="logo__icon" alt="logo img"/>
-                </Navbar.Brand>
-            </NavLink>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="mr-auto">
-                <NavLink to="/" exact className="nav__link">HOME</NavLink>
-                <NavLink to="/About" exact className="nav__link">ABOUT</NavLink>
-                <NavLink to="/Cv" exact className="nav__link">CV</NavLink>
-                <NavLink to="/Contact" className="nav__link">CONTACT</NavLink>
-              </Nav>
-            </Navbar.Collapse>
-          </Navbar>
+
+
+        <div className="nav__container">
+            <img src={logo} className="logo__icon" alt="logo img"/>
+            <div className="hero__heading">
+                <h1>Elise Myklebust</h1>
+                <h2>Portfolio</h2>
+                <div className="heading__scrolldown">
+                    <a href="#content">Scroll down</a>
+                </div>
+            </div>
+        </div>
+
+        <Navbar className="nav__bar" bg="transparent" variant="light" expand="lg">
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="ml-auto">
+              <NavLink to="/" exact className="nav__link">HOME</NavLink>
+              <NavLink to="/About" exact className="nav__link">ABOUT</NavLink>
+              <NavLink to="/Cv" exact className="nav__link">CV</NavLink>
+              <NavLink to="/Contact" className="nav__link">CONTACT</NavLink>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
+
+
             <Switch>
               <Route exact path="/">
                 <Home />
