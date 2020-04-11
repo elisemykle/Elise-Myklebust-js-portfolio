@@ -1,8 +1,12 @@
 // legg inn basic som feks navbar, footer, farger, bilder og skriftstørrelser
-  @import url("https://use.typekit.net/wic0adi.css");
+ @import url("https://use.typekit.net/wic0adi.css");
 
 $font-family: 'helvetica neue';
 $color: #EFC392;
+
+body{
+    margin: 0;
+}
 
 #logo__icon{
     height: 100px;

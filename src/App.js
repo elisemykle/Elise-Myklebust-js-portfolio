@@ -6,7 +6,7 @@ import {
   Route,
   Switch
 } from "react-router-dom";
-import {Container, Nav, Navbar} from "react-bootstrap";
+import {Nav, Navbar} from "react-bootstrap";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
@@ -33,7 +33,6 @@ function App() {
               </Nav>
             </Navbar.Collapse>
           </Navbar>
-          <Container>
             <Switch>
               <Route exact path="/">
                 <Home />
@@ -48,7 +47,6 @@ function App() {
                 <Cv/>
               </Route>
             </Switch>
-          </Container>
         </Router>
       </div>
   );

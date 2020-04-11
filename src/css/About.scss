@@ -1,6 +1,6 @@
 .about__h1{
     color: #EFC392;
-    padding-top: 50px;
+    //padding-top: 50px;
     font-family: acier-bat-gris, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -9,4 +9,22 @@
 
 .about__text{
     padding-top: 10px;
+}
+
+
+.about__signature--desktop{
+    display: none;
+  }
+ .about__signature--mobile{
+  display: block;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .about__signature--mobile{
+    display: none;
+  }
+  .about__signature--desktop{
+  display: block;
+}
 }
