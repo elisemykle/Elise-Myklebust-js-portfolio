@@ -4,9 +4,6 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import * as yup from "yup";
 
-
-
-
 const schema = yup.object().shape({
 	firstname: yup.string().required("Required, minimum 2 characters"),
 	lastname: yup
@@ -35,7 +32,6 @@ const schema = yup.object().shape({
             <Form.Group>
                 <div className="contact contact__page">
                     <h1 className="contact__h1">OH, HELLO THERE...</h1>
-                    <p className="about__text">LET'S WORK TOGETHER!</p>
                 </div>
                 <Form.Label>First name</Form.Label>
                 <Form.Control name="firstname" placeholder="Enter your first name" ref={register}/>

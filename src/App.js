@@ -20,7 +20,7 @@ function App() {
           <Navbar className="nav__bar" bg="transparent" variant="light" expand="lg">
             <NavLink to="/" exact>
                 <Navbar.Brand>
-                    <img src={logo} id="logo__icon" alt="logo__image"/>
+                    <img src={logo} id="logo__icon" alt="logo img"/>
                 </Navbar.Brand>
             </NavLink>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
