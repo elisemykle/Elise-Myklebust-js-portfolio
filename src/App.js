@@ -17,10 +17,10 @@ function App() {
   return (
       <div className="front page">
         <Router className="Layout">
-          <Navbar className="nav__bar" bg="light" variant="light" expand="lg">
+          <Navbar className="nav__bar" bg="transparent" variant="light" expand="lg">
             <NavLink to="/" exact>
                 <Navbar.Brand>
-                    <img src={logo} alt="my logo"/>
+                    <img src={logo} id="logo__icon" alt="logo__image"/>
                 </Navbar.Brand>
             </NavLink>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

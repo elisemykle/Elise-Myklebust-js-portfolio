@@ -4,6 +4,11 @@ $font-family: 'helvetica neue';
 $color: #EFC392;
 $background-color: transparent;
 
+#logo__icon{
+    height: 100px;
+    width: 70px;
+}
+
 .nav__bar{
     background-color: $background-color;
 }
@@ -22,8 +27,4 @@ $background-color: transparent;
 .nav__link:active {
   color: $color;
   font-weight: bold;
-}
-
-.hero__image{
-
 }
