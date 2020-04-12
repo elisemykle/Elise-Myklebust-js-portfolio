@@ -55,10 +55,11 @@ body{
 
 .hero__heading h1{
     font-size: 70px;
-    color: #EFC392;
+    color: #E5E5E5;
     font-family: acier-bat-gris, sans-serif;
     font-weight: 400;
     font-style: normal;
+    letter-spacing: 8px;
 }
 
 .hero__heading h2{
@@ -66,13 +67,13 @@ body{
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: white;
+    color: $color;
     font-weight: lighter;
 }
 
 .heading__scrolldown{
     padding-top: 170px;
-    color: white!important;
+    color: #E5E5E5;
     text-decoration: none;
     font-weight: 200;
 }

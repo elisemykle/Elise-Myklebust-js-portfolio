@@ -8,6 +8,7 @@
     font-weight: 400;
     font-style: normal;
     font-size: 50px;
+    padding-bottom: 30px;
 }
 
 .home__projects{
@@ -21,14 +22,3 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-// .filterElem{
-//     z-index: 5;
-//     width: 100%;
-//     display: none;
-//     background-color: rgba(239, 195, 146,0.5);
-// }
-//
-// .gallery:hover .filterElem {
-//     display: flex;
-// }
