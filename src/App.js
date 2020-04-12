@@ -17,19 +17,16 @@ function App() {
   return (
       <div className="front page">
         <Router className="Layout">
-
-
         <div className="nav__container">
             <img src={logo} className="logo__icon" alt="logo img"/>
             <div className="hero__heading">
                 <h1>Elise Myklebust</h1>
                 <h2>Portfolio</h2>
                 <div className="heading__scrolldown">
-                    <a href="#content">Scroll down</a>
+                <a href="#content">Scroll down</a>
                 </div>
             </div>
         </div>
-
         <Navbar className="nav__bar" bg="transparent" variant="light" expand="lg">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -41,8 +38,6 @@ function App() {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-
-
             <Switch>
               <Route exact path="/">
                 <Home />
