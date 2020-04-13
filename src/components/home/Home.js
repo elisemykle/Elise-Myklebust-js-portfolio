@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< HEAD
 import { Col, Row, Image, Container} from 'react-bootstrap';
 import kortImg from "../../image/kort.png"
 import koppenImg from "../../image/koppen.jpg"
@@ -37,5 +38,15 @@ export default function Home(props) {
             <Col className="home__projects" xs={12} md={6} lg={3}><Image src={barekstenImg} className="home__projects--image" alt="bareksten img" fluid/><p className="home__centered">Bareksten</p></Col>
           </Row>
         </Container>
+=======
+import heroImg from "../../image/heroimage.png"
+
+export default function Home(props) {
+    return (
+        <div className="page page__home">
+            <h1 className="page__h1">Portfolio</h1>
+            <img src={heroImg} alt="heroimage"/>
+        </div>
+>>>>>>> master
     )
 }
