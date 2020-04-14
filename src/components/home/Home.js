@@ -1,6 +1,5 @@
 import React from 'react';
 import { Col, Row, Image, Container} from 'react-bootstrap';
-import heroImg from "../../image/heroimage.png";
 import kortImg from "../../image/kort.png";
 import koppenImg from "../../image/koppen.jpg";
 import magasinImg from "../../image/magasin.jpg";

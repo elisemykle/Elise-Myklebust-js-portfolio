@@ -20,7 +20,7 @@ body{
 }
 
 .nav__container{
-    background: url("../image/heroimage2.png");
+    background: url("../image/heroimage.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -87,10 +87,4 @@ body{
 a{
     color: white;
     letter-spacing: 1px;
-}
-
-// legg inn basic som feks navbar, footer, farger, bilder og skriftstørrelser
-
-.nav__link{
-    color: pink;
 }
