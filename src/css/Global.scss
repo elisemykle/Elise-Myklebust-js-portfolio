@@ -1,7 +1,9 @@
 @import url("https://use.typekit.net/wic0adi.css");
 
-$font-family: 'helvetica';
-$color: #EFC392;
+$fontfamily: 'helvetica';
+$maincolor: #EFC392;
+$herofontcolor: #E5E5E5;
+
 
 html{
     scroll-behavior: smooth;
@@ -32,19 +34,19 @@ body{
 
 .nav__link{
     color: black;
-    font-family: $font-family;
+    font-family: $fontfamily;
     padding: 15px;
     letter-spacing: 2px;
     font-size: 14px;
 }
 
 .nav__link:hover {
-  color: $color;
+  color: $maincolor;
   text-decoration: line-through;
 }
 
 .nav__link:active {
-  color: $color;
+  color: $maincolor;
   font-weight: bold;
 }
 
@@ -55,31 +57,31 @@ body{
 
 .hero__heading h1{
     font-size: 70px;
-    color: #E5E5E5;
+    color: $herofontcolor;
     font-family: acier-bat-gris, sans-serif;
     font-style: normal;
     letter-spacing: 8px;
 }
 
 .hero__heading h2{
-    font-family: helvetica;
+    font-family: $fontfamily;
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: $color;
+    color: $maincolor;
     font-weight: lighter;
 }
 
 .heading__scrolldown{
     padding-top: 170px;
-    color: #E5E5E5;
+    color: $herofontcolor;
     text-decoration: none;
     font-weight: 200;
 }
 
 
 .heading__scrolldown a:hover {
-  color: $color;
+  color: $maincolor;
   text-decoration: line-through;
 }
 
