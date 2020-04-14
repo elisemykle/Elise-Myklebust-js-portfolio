@@ -6,11 +6,9 @@ import {
   Route,
   Switch
 } from "react-router-dom";
-<<<<<<< HEAD
+
 import {Nav, Navbar} from "react-bootstrap";
-=======
 import {Container, Nav, Navbar} from "react-bootstrap";
->>>>>>> master
 import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
@@ -19,7 +17,6 @@ import logo from "./image/icon.png"
 
 function App() {
   return (
-<<<<<<< HEAD
       <div className="front page">
         <Router className="Layout">
         <div className="nav__container">
@@ -43,7 +40,6 @@ function App() {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-=======
       <div className="frontpage">
         <Router className="Layout">
           <Navbar bg="light" variant="light" expand="lg">
@@ -63,7 +59,6 @@ function App() {
             </Navbar.Collapse>
           </Navbar>
           <Container>
->>>>>>> master
             <Switch>
               <Route exact path="/">
                 <Home />
@@ -78,10 +73,7 @@ function App() {
                 <Cv/>
               </Route>
             </Switch>
-<<<<<<< HEAD
-=======
           </Container>
->>>>>>> master
         </Router>
       </div>
   );

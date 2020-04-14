@@ -1,18 +1,18 @@
 import React from 'react';
-<<<<<<< HEAD
 import { Col, Row, Image, Container} from 'react-bootstrap';
-import kortImg from "../../image/kort.png"
-import koppenImg from "../../image/koppen.jpg"
-import magasinImg from "../../image/magasin.jpg"
-import eliseImg from "../../image/elise.jpg"
-import gymImg from "../../image/gym.jpg"
-import pizzaImg from "../../image/pizza.jpg"
-import appImg from "../../image/app.jpg"
-import visaImg from "../../image/visa.jpg"
-import flavourImg from "../../image/flavour.png"
-import stickerImg from "../../image/sticker.jpg"
-import orangeImg from "../../image/orange.png"
-import barekstenImg from "../../image/bareksten.jpg"
+import heroImg from "../../image/heroimage.png";
+import kortImg from "../../image/kort.png";
+import koppenImg from "../../image/koppen.jpg";
+import magasinImg from "../../image/magasin.jpg";
+import eliseImg from "../../image/elise.jpg";
+import gymImg from "../../image/gym.jpg";
+import pizzaImg from "../../image/pizza.jpg";
+import appImg from "../../image/app.jpg";
+import visaImg from "../../image/visa.jpg";
+import flavourImg from "../../image/flavour.png";
+import stickerImg from "../../image/sticker.jpg";
+import orangeImg from "../../image/orange.png";
+import barekstenImg from "../../image/bareksten.jpg";
 
 
 export default function Home(props) {
@@ -38,15 +38,5 @@ export default function Home(props) {
             <Col className="home__projects" xs={12} md={6} lg={3}><Image src={barekstenImg} className="home__projects--image" alt="bareksten img" fluid/><p className="home__centered">Bareksten</p></Col>
           </Row>
         </Container>
-=======
-import heroImg from "../../image/heroimage.png"
-
-export default function Home(props) {
-    return (
-        <div className="page page__home">
-            <h1 className="page__h1">Portfolio</h1>
-            <img src={heroImg} alt="heroimage"/>
-        </div>
->>>>>>> master
     )
 }
