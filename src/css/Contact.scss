@@ -7,3 +7,24 @@
     font-size: 50px;
     text-transform: uppercase;
 }
+
+.contact__button{
+    background-color: $maincolor;
+    border: none;
+    font-weight: bold;
+}
+
+.contact__button:hover{
+    background-color: $secondarycolor;
+    color: black;
+    font-weight: bold;
+}
+
+.message__form{
+    height: 200px!important;
+    resize: vertical;
+}
+
+.form__name{
+    font-weight: 500;
+}
