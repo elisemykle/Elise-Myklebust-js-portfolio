@@ -17,7 +17,7 @@
 .contact__button:hover{
     background-color: $secondarycolor;
     color: black;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .message__form{
@@ -25,6 +25,6 @@
     resize: vertical;
 }
 
-.form__name{
+.form__label{
     font-weight: 500;
 }

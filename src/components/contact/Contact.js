@@ -32,23 +32,23 @@ const schema = yup.object().shape({
                 <div className="contact__contact--page">
                     <h1 className="contact__h1">Oh, hello there...</h1>
                 </div>
-                <Form.Label className="form__name">First name</Form.Label>
+                <Form.Label className="form__label">First name</Form.Label>
                 <Form.Control name="firstname" placeholder="Enter your first name" ref={register}/>
                 {errors.firstname && <p>Please enter minimum 2 characters.</p>}
             </Form.Group>
             <Form.Group>
-                <Form.Label className="form__name">Last name</Form.Label>
+                <Form.Label className="form__label">Last name</Form.Label>
                 <Form.Control name="lastname" placeholder="Enter your last name" ref={register}/>
                 {errors.lastname && <p>Please enter minimum 2 characters.</p>}
             </Form.Group>
 			<Form.Group>
-                <Form.Label className="form__name">Email adress</Form.Label>
+                <Form.Label className="form__label">Email adress</Form.Label>
                 <Form.Control name="emailadress" placeholder="Enter your email" ref={register}/>
                 {errors.emailadress && <p>Please enter in a valid email format.</p>}
             </Form.Group>
 			<Form.Group>
-				<Form.Label className="form__name">Message</Form.Label>
-				<Form.Control className="message__form" as="textarea" name="message" placeholder="please enter your message here" ref={register}/>
+				<Form.Label className="form__label">Message</Form.Label>
+				<Form.Control className="message__form" as="textarea" name="message" placeholder="Please enter your message here..." ref={register}/>
 				{errors.message && <p>Please enter in minimum 10 characters.</p>}
 			</Form.Group>
             <Button className="contact__button" type="submit">Send</Button>
