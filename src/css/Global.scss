@@ -28,10 +28,6 @@ body{
     height: 100vh;
 }
 
-.nav__bar{
-    //float: right;
-}
-
 .nav__link{
     color: black;
     font-family: $fontfamily;
@@ -41,13 +37,13 @@ body{
 }
 
 .nav__link:hover {
-  color: $maincolor;
-  text-decoration: line-through;
+    color: $maincolor;
+    text-decoration: line-through;
 }
 
 .nav__link:active {
-  color: $maincolor;
-  font-weight: bold;
+    color: $maincolor;
+    font-weight: bold;
 }
 
 .hero__heading{
@@ -81,8 +77,8 @@ body{
 
 
 .heading__scrolldown a:hover {
-  color: $maincolor;
-  text-decoration: line-through;
+    color: $maincolor;
+    text-decoration: line-through;
 }
 
 a{

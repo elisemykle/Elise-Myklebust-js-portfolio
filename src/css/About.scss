@@ -1,30 +1,28 @@
 .about__h1{
     color: $maincolor;
-    //padding-top: 50px;
     font-family: acier-bat-gris, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 50px;
+    text-transform: uppercase;
 }
 
 .about__text{
     padding-top: 10px;
 }
 
-
 .about__signature--desktop{
     display: none;
   }
  .about__signature--mobile{
-  display: block;
+    display: block;
 }
 
-
 @media only screen and (min-width: 768px) {
-    .about__signature--mobile{
+.about__signature--mobile{
     display: none;
   }
-  .about__signature--desktop{
-  display: block;
+ .about__signature--desktop{
+    display: block;
 }
 }

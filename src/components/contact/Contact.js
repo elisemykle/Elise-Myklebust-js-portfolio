@@ -25,13 +25,12 @@ const schema = yup.object().shape({
         validationSchema: schema
     });
     function onSubmit() {
-
     }
     return(
         <Form id="content" onSubmit={handleSubmit(onSubmit)}>
             <Form.Group>
-                <div className="contact contact__page">
-                    <h1 className="contact__h1">OH, HELLO THERE...</h1>
+                <div className="contact__contact--page">
+                    <h1 className="contact__h1">Oh, hello there...</h1>
                 </div>
                 <Form.Label>First name</Form.Label>
                 <Form.Control name="firstname" placeholder="Enter your first name" ref={register}/>
