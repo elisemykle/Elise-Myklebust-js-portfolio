@@ -58,15 +58,6 @@ body{
     letter-spacing: 8px;
 }
 
-
-@media only screen and (max-width: 414px) {
-    .hero__heading h1{
-        font-size: 60px;
-    }
-}
-
-
-
 .hero__heading h2{
     font-family: $fontfamily;
     font-size: 15px;
@@ -83,7 +74,6 @@ body{
     font-weight: 200;
 }
 
-
 .heading__scrolldown a:hover {
     color: $maincolor;
     text-decoration: line-through;
@@ -94,7 +84,11 @@ body{
     letter-spacing: 1px;
 }
 
-
+@media only screen and (max-width: 414px) {
+    .hero__heading h1{
+        font-size: 60px;
+    }
+}
 
 @media only screen and (max-width: 375px) {
     .heading__scrolldown a{

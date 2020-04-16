@@ -6,7 +6,7 @@ import {
   Route,
   Switch
 } from "react-router-dom";
-import {Container, Nav, Navbar} from "react-bootstrap";
+import {Container, Nav, Navbar,} from "react-bootstrap";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
@@ -18,7 +18,7 @@ function App() {
       <div className="home__page">
         <Router className="home__layout">
         <div className="nav__container">
-            <img src={logo} className="logo__icon" alt="logo img"/>
+            <NavLink to="/"><img src={logo} className="logo__icon" alt="icon img"/></NavLink>
             <div className="hero__heading">
                 <h1>Elise Myklebust</h1>
                 <h2>Portfolio</h2>
