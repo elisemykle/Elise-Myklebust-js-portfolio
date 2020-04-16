@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Cv(props) {
     return (
-        <div className="timeline">
+        <div className="cv__timeline">
             <h1 className="cv__h1">Cv - work experiences</h1>
           <div className="container__right">
             <div className="cv__content">

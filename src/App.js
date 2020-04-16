@@ -27,7 +27,6 @@ function App() {
                 </div>
             </div>
         </div>
-
         <Navbar className="nav__bar" bg="transparent" variant="light" expand="lg">
           <Navbar.Toggle aria-controls="basic__navbar-nav" />
           <Navbar.Collapse id="basic__navbar-nav">
