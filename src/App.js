@@ -32,10 +32,10 @@ function App() {
           <Navbar.Toggle aria-controls="basic__navbar-nav" />
           <Navbar.Collapse id="basic__navbar-nav">
             <Nav className="ml-auto">
-              <NavLink to="/" exact className="nav__link">HOME</NavLink>
-              <NavLink to="/About" exact className="nav__link">ABOUT</NavLink>
-              <NavLink to="/Cv" exact className="nav__link">CV</NavLink>
-              <NavLink to="/Contact" className="nav__link">CONTACT</NavLink>
+              <NavLink to="/" exact activeClassName="nav__link--active" className="nav__link">HOME</NavLink>
+              <NavLink to="/About" exact activeClassName="nav__link--active" className="nav__link">ABOUT</NavLink>
+              <NavLink to="/Cv" exact activeClassName="nav__link--active" className="nav__link">CV</NavLink>
+              <NavLink to="/Contact" exact activeClassName="nav__link--active" className="nav__link">CONTACT</NavLink>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

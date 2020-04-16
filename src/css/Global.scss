@@ -40,9 +40,10 @@ body{
     text-decoration: line-through;
 }
 
-.nav__link:active {
-    color: $maincolor;
+
+.nav__link--active{
     font-weight: bold;
+    color: $maincolor;
 }
 
 .hero__heading{
