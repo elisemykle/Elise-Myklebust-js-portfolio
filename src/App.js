@@ -28,7 +28,7 @@ function App() {
             </div>
         </div>
         <Navbar className="nav__bar" bg="transparent" variant="light" expand="lg">
-          <Navbar.Toggle aria-controls="basic__navbar-nav" />
+          <Navbar.Toggle className="custom-toggler" aria-controls="basic__navbar-nav" />
           <Navbar.Collapse id="basic__navbar-nav">
             <Nav className="ml-auto">
               <NavLink to="/" exact activeClassName="nav__link--active" className="nav__link">HOME</NavLink>

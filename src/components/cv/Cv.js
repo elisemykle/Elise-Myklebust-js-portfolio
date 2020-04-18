@@ -2,49 +2,84 @@ import React from 'react';
 
 export default function Cv(props) {
     return (
-        <div className="cv__timeline">
+        <div className="container">
+          <div className="page-header">
             <h1 className="cv__h1">Cv - work experiences</h1>
-          <div className="container__right">
-            <div className="cv__content">
-                <h2 className="timeline__h2">2020</h2>
-                <p className="timeline__text">Frontend utvikling - Noroff school of technology and digital media | 2018 - 2017</p>
-            </div>
           </div>
 
-          <div className="container__left">
-            <div className="cv__content">
-                <h2 className="timeline__h2">2019</h2>
-                <p className="timeline__text">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-            </div>
-          </div>
+          <ul className="timeline">
+            <li>
+              <div className="timeline-panel">
+                <div className="timeline-heading">
+                  <h4 className="timeline-title">Noroff School Of Technology And Digital Media </h4>
+                    <p><small className="text-muted">2020 </small></p>
+                </div>
+                <div className="timeline-body">
+                  <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                </div>
+              </div>
+            </li>
 
-          <div className="container__right">
-            <div className="cv__content">
-                <h2 className="timeline__h2">2018</h2>
-                <p className="timeline__text">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-            </div>
-          </div>
+            <li className="timeline-inverted">
+              <div className="timeline-panel">
+                <div className="timeline-heading">
+                  <h4 className="timeline-title">Høyskolen Kristiania</h4>
+                    <p><small className="text-muted">2020 </small></p>
+                </div>
+                <div className="timeline-body">
+                  <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                </div>
+              </div>
+            </li>
 
-          <div className="container__left">
-            <div className="cv__content">
-                <h2 className="timeline__h2">2017</h2>
-                <p className="timeline__text">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-            </div>
-          </div>
+            <li>
+              <div className="timeline-panel">
+                <div className="timeline-heading">
+                  <h4 className="timeline-title">Mussum ipsum cacilds</h4>
+                  <p><small className="text-muted">2020 </small></p>
+                </div>
+                <div className="timeline-body">
+                  <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                </div>
+              </div>
+            </li>
 
-          <div className="container__right">
-            <div className="cv__content">
-                <h2 className="timeline__h2">2016</h2>
-                <p className="timeline__text">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-            </div>
-          </div>
+            <li className="timeline-inverted">
+              <div className="timeline-panel">
+                <div className="timeline-heading">
+                  <h4 className="timeline-title">Mussum ipsum cacilds</h4>
+                  <p><small className="text-muted">2020 </small></p>
+                </div>
+                <div className="timeline-body">
+                  <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                </div>
+              </div>
+            </li>
 
-          <div className="container__right">
-            <div className="cv__content">
-                <h2 className="timeline__h2">2015</h2>
-                <p className="timeline__text">Grafisk design - Høyskolen Kristiania Bergen | 2015 - 2017</p>
-            </div>
-          </div>
+            <li>
+              <div className="timeline-panel">
+                <div className="timeline-heading">
+                  <h4 className="timeline-title">HALLO</h4>
+                  <p><small className="text-muted">2020 </small></p>
+                </div>
+                <div className="timeline-body">
+                  <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                </div>
+              </div>
+            </li>
+
+            <li className="timeline-inverted">
+              <div className="timeline-panel">
+                <div className="timeline-heading">
+                  <h4 className="timeline-title">Mussum ipsum cacilds</h4>
+                  <p><small className="text-muted">2020 </small></p>
+                </div>
+                <div className="timeline-body">
+                  <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
 
     )
