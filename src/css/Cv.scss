@@ -7,18 +7,13 @@
 }
 
 
-
-
-
-
-
-.timeline {
+.timeline__cv {
   list-style: none;
   padding: 50px 0 20px;
   position: relative;
 }
 
-.timeline:before {
+.timeline__cv:before {
   top: 0;
   bottom: 0;
   position: absolute;
@@ -30,32 +25,32 @@
 
 }
 
-.timeline > li {
+.timeline__cv > li {
   margin-bottom: 20px;
   position: relative;
 }
 
-.timeline > li:before,
-.timeline > li:after {
+.timeline__cv > li:before,
+.timeline__cv > li:after {
   content: " ";
   display: table;
 }
 
-.timeline > li:after {
+.timeline__cv > li:after {
   clear: both;
 }
 
-.timeline > li:before,
-.timeline > li:after {
+.timeline__cv > li:before,
+.timeline__cv > li:after {
   content: " ";
   display: table;
 }
 
-.timeline > li:after {
+.timeline__cv > li:after {
   clear: both;
 }
 
-.timeline > li > .timeline-panel {
+.timeline__cv > li > .timeline__panel {
   width: 46%;
   float: left;
   border: 1px solid #d4d4d4;
@@ -66,7 +61,7 @@
   box-shadow: 0 10px 6px rgba(0, 0, 0, 0.175);
 }
 
-.timeline > li > .timeline-panel:before {
+.timeline__cv > li > .timeline__panel:before {
   position: absolute;
   top: 26px;
   right: -15px;
@@ -78,7 +73,7 @@
   content: " ";
 }
 
-.timeline > li > .timeline-panel:after {
+.timeline__cv > li > .timeline__panel:after {
   position: absolute;
   top: 27px;
   right: -14px;
@@ -91,36 +86,36 @@
 }
 
 
-.timeline > li.timeline-inverted > .timeline-panel {
+.timeline__cv > li.timeline__inverted > .timeline__panel {
   float: right;
 }
 
-.timeline > li.timeline-inverted > .timeline-panel:before {
+.timeline__cv > li.timeline__inverted > .timeline__panel:before {
   border-left-width: 0;
   border-right-width: 15px;
   left: -15px;
   right: auto;
 }
 
-.timeline > li.timeline-inverted > .timeline-panel:after {
+.timeline__cv > li.timeline__inverted > .timeline__panel:after {
   border-left-width: 0;
   border-right-width: 14px;
   left: -14px;
   right: auto;
 }
 
-.timeline-title {
+.timeline__title {
   margin-top: 0;
   color: $maincolor;
   text-transform: uppercase;
 
 }
 
-.timeline-body > p,
-.timeline-body > ul {
+.timeline__body > p,
+.timeline__body > ul {
   margin-bottom: 0;
 }
 
-.timeline-body > p + p {
+.timeline__body > p + p {
   margin-top: 5px;
 }
