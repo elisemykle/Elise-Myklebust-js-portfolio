@@ -1,78 +1,51 @@
 import React from 'react';
 import { Col, Row, Image, Container} from 'react-bootstrap';
 import kortImg from "../../image/kort.png";
-import koppenImg from "../../image/koppen.jpg";
-import magasinImg from "../../image/magasin.jpg";
-import eliseImg from "../../image/elise.jpg";
-import gymImg from "../../image/gym.jpg";
-import pizzaImg from "../../image/pizza.jpg";
-import appImg from "../../image/app.jpg";
-import visaImg from "../../image/visa.jpg";
-import flavourImg from "../../image/flavour.png";
-import stickerImg from "../../image/sticker.jpg";
-import orangeImg from "../../image/orange.png";
-import barekstenImg from "../../image/bareksten.jpg";
-
+import zeroImg from "../../image/zero.png";
+import barekstenImg from "../../image/bareksten.png";
+import gameImg from "../../image/game.png";
 
 export default function Home(props) {
     return (
         <Container id="content">
-            <h1 className="home__h1">My Projects...</h1>
-          <Row className="home__projects">
-            <Col xs={12} md={6} lg={3}>
-                <Image src={kortImg} className="home__projects--image" alt="kort img" fluid/>
-                <p className="home__centered">Carbon Solutions</p>
+          <Row>
+            <Col xs="12" lg="6">
+                <h1 className="home__h1">My Projects...</h1>
+                <h4 className="home__h4">Carbon Solutions</h4>
+                <p className="about__text">This was our first exam assignment we got at school where we had our first real customer. There we created a new visual identity for the customer such as a website, logo and business card.</p>
             </Col>
-            <Col xs={12} md={6} lg={3}>
-                <Image src={koppenImg} className="home__projects--image" alt="koppen img" fluid/>
-                <p className="home__centered">Koppen Industrier</p>
-            </Col>
-            <Col xs={12} md={6} lg={3}>
-                <Image src={magasinImg} className="home__projects--image" alt="magasin img" fluid/>
-                <p className="home__centered">Fashion magasin</p>
-            </Col>
-            <Col xs={12} md={6} lg={3}>
-                <Image src={eliseImg} className="home__projects--image" alt="elise img" fluid/>
-                <p className="home__centered">Elise Myklebust</p>
-            </Col>
-          </Row>
 
-          <Row className="home__projects">
-            <Col xs={12} md={6} lg={3}>
-                <Image src={gymImg} className="home__projects--image" alt="gym img" fluid/>
-                <p className="home__centered">Zero Gravity</p>
+            <Col xs="12" lg="6">
+                <Image src={kortImg} className="home__projects--image" alt="kortimg" fluid/>
             </Col>
-            <Col xs={12} md={6} lg={3}>
-                <Image src={pizzaImg} className="home__projects--image" alt="pizza img" fluid/>
-                <p className="home__centered">Red Pepper Pizza</p>
-            </Col>
-            <Col xs={12} md={6} lg={3}>
-                <Image src={appImg} className="home__projects--image" alt="app img" fluid/>
-                <p className="home__centered">Wave app</p>
-            </Col>
-            <Col xs={12} md={6} lg={3}>
-                <Image src={visaImg} className="home__projects--image" alt="visa img" fluid/>
-                <p className="home__centered">Visa checkout</p>
-            </Col>
-          </Row>
 
-          <Row className="home__projects">
-            <Col xs={12} md={6} lg={3}>
-                <Image src={flavourImg} className="home__projects--image" alt="flavour img" fluid/>
-                <p className="home__centered">Flavour</p>
+            <Col xs="12" lg="6">
+                <Image src={zeroImg} className="home__projects--image" alt="zeroimg" fluid/>
             </Col>
-            <Col xs={12} md={6} lg={3}>
-                <Image src={stickerImg} className="home__projects--image" alt="sticker img" fluid/>
-                <p className="home__centered">Cherry sticker</p>
+
+            <Col xs="12" lg="6">
+                <h4 className="home__h4">Zero Gravity</h4>
+                <p className="about__text">This was one of my freelance work I did for a acquaintance. He wanted to start his own company and asked me to make him a logo that did fit with his calisthenics interest.</p>
             </Col>
-            <Col xs={12} md={6} lg={3}>
-                <Image src={orangeImg} className="home__projects--image" alt="orange img" fluid/>
-                <p className="home__centered">Orange sticker</p>
+
+            <Col xs="12" lg="6">
+                <h4 className="home__h4">Bareksten</h4>
+                <p className="about__text">This was also a exam assignment where we had the opportunity to choose our own customer to redesign their website. I choose Bareksten Spirits that is an alcohol distiller from Bergen. </p>
             </Col>
-            <Col xs={12} md={6} lg={3}>
-                <Image src={barekstenImg} className="home__projects--image" alt="bareksten img" fluid/>
-                <p className="home__centered">Bareksten</p>
+
+            <Col xs="12" lg="6">
+                <Image src={barekstenImg} className="home__projects--image" alt="bareksteimg" fluid/>
             </Col>
+
+            <Col xs="12" lg="6">
+                <Image src={gameImg} className="home__projects--image" alt="gameimg" fluid/>
+            </Col>
+
+            <Col xs="12" lg="6">
+                <h4 className="home__h4">Game of thrones</h4>
+                <p className="about__text">This was a exam assignment where we made a snakes and ladders game written in pure javascript. The theme for the assignment was Game of Thrones.</p>
+            </Col>
+
           </Row>
         </Container>
     )
