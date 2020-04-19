@@ -29,7 +29,7 @@ function App() {
         </div>
         <Navbar className="nav__bar" bg="transparent" variant="light" expand="lg">
           <Navbar.Toggle className="custom-toggler" aria-controls="basic__navbar-nav" />
-          <Navbar.Collapse id="basic__navbar-nav">
+          <Navbar.Collapse className="custom-collapse" id="basic__navbar-nav">
             <Nav className="ml-auto">
               <NavLink to="/" exact activeClassName="nav__link--active" className="nav__link">HOME</NavLink>
               <NavLink to="/About" exact activeClassName="nav__link--active" className="nav__link">ABOUT</NavLink>
